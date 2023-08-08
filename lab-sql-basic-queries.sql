@@ -87,6 +87,7 @@ WHERE
     first_name = 'SCARLETT';
 -- This will include null values. We could also use (for example): SELECT first name, last name.
 
+-- 7.2 Retrieve all movies that have ARMAGEDDON in their title and have a duration longer than 100 minutes.
 SELECT 
     *
 FROM
@@ -96,6 +97,7 @@ WHERE
         AND length > 100;
 -- This will include null values. We could also use (for example): SELECT title.
 
+-- 7.3 Determine the number of films that include Behind the Scenes content.
 SELECT 
     COUNT(film_id)
 FROM
